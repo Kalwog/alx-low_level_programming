@@ -2,7 +2,7 @@
 /*
  * main - print given line
  *
- * Return: 0
+ * Return: 0 if successful
  */
 int main(void)
 {
