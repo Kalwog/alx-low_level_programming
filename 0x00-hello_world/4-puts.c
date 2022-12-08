@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print given line
  *
  * Return: 0 if successful
