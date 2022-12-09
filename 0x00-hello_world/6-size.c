@@ -1,17 +1,10 @@
-nclude <stdio.h>
-
+#include <stdio.h>
 /**
- *
- *   main - print size of data types
- *
- *     Return: 0 if successful
- *
- *     */
-
+ * main - print size of data types
+ * Return: 0 if successful
+ */
 int main(void)
-
 {
-
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
@@ -23,5 +16,4 @@ int main(void)
 	printf("Size of an float: %d byte(s)\n", sizeof(float));
 
 	return (0);
-
 }
