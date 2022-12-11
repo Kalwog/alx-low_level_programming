@@ -13,7 +13,7 @@ int i;
 char c = 'A';
 for (i = 0; i < 16; i++)
 {
-if (num < 10)
+if (i < 10)
 {
 putchar(i + '0');
 }
