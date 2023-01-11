@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdlib.h>
 /**
  * alloc_grid - nested loop to make grid
@@ -30,7 +29,6 @@ for (x = 0; x < height; x++)
 	if (mee[x] == NULL)
 
 {
-
 	for (; x >= 0; x--)
 
 		free(mee[x]);
@@ -41,7 +39,6 @@ for (x = 0; x < height; x++)
 }
 }
 for (x = 0; x < height; x++)
-
 {
 for (y = 0; y < width; y++)
 
